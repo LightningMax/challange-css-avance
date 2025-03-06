@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 420px;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    max-width: 1200px;
+    height: 100vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article p {
+    text-align: justify;
+}
+
+#logo {
+    width: 20px;
+}
+
+.accueil-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.container {
+    display: inherit;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#tarifs-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#tarifs-cards {
+    display: inherit;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    width: 40%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    gap: 10px;
+    width: 680px;
+}
+
+form input {
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 20px;
+}
